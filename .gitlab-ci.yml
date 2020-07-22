@@ -1,0 +1,8 @@
+image: maven:3.3.9-jdk-8
+
+stages:
+  - deploy
+
+deploy:
+  script:
+    - 'mvn deploy -s ci_settings.xml'
