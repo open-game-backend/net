@@ -8,6 +8,9 @@ public class ServerRegisterRequest {
     private int port;
     private int maxPlayers;
 
+    public ServerRegisterRequest() {
+    }
+    
     public ServerRegisterRequest(String version, String gameMode, String region, String ipV4Address, int port, int maxPlayers) {
         this.version = version;
         this.gameMode = gameMode;
