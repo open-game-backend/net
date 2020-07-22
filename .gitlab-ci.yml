@@ -10,4 +10,4 @@ build:
 
 deploy:
   stage: deploy
-  script: 'mvn deploy -s ci_settings.xml'
+  script: 'mvn deploy -s ci-settings.xml'
