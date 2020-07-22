@@ -3,8 +3,8 @@ package de.opengamebackend.matchmaking.model.responses;
 import de.opengamebackend.matchmaking.model.PlayerStatus;
 
 public class ClientEnqueueResponse {
-    private final String playerId;
-    private final PlayerStatus status;
+    private String playerId;
+    private PlayerStatus status;
 
     public ClientEnqueueResponse() { }
     public ClientEnqueueResponse(String playerId, PlayerStatus status) {
