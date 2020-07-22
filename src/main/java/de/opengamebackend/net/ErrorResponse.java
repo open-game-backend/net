@@ -1,8 +1,8 @@
 package de.opengamebackend.net;
 
 public class ErrorResponse {
-    private int errorCode;
-    private String errorMessage;
+    private final int errorCode;
+    private final String errorMessage;
 
     public ErrorResponse(int errorCode, String errorMessage) {
         this.errorCode = errorCode;

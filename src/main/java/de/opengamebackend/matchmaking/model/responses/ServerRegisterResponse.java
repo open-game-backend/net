@@ -1,7 +1,7 @@
 package de.opengamebackend.matchmaking.model.responses;
 
 public class ServerRegisterResponse {
-    private String id;
+    private final String id;
 
     public ServerRegisterResponse(String id) {
         this.id = id;

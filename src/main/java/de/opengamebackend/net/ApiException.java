@@ -1,7 +1,7 @@
 package de.opengamebackend.net;
 
 public class ApiException extends Exception {
-    private int errorCode;
+    private final int errorCode;
 
     public ApiException(int errorCode, String errorMessage) {
         super(errorMessage);
