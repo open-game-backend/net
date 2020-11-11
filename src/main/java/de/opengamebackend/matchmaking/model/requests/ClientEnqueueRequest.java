@@ -6,6 +6,16 @@ public class ClientEnqueueRequest {
     private String gameMode;
     private String region;
 
+    public ClientEnqueueRequest() {
+    }
+
+    public ClientEnqueueRequest(String playerId, String version, String gameMode, String region) {
+        this.playerId = playerId;
+        this.version = version;
+        this.gameMode = gameMode;
+        this.region = region;
+    }
+
     public String getPlayerId() {
         return playerId;
     }
