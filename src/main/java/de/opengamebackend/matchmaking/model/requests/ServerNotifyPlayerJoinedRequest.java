@@ -4,6 +4,14 @@ public class ServerNotifyPlayerJoinedRequest {
     private String serverId;
     private String playerId;
 
+    public ServerNotifyPlayerJoinedRequest() {
+    }
+
+    public ServerNotifyPlayerJoinedRequest(String serverId, String playerId) {
+        this.serverId = serverId;
+        this.playerId = playerId;
+    }
+
     public String getServerId() {
         return serverId;
     }

@@ -6,6 +6,14 @@ public class ServerSetStatusRequest {
     private String id;
     private ServerStatus status;
 
+    public ServerSetStatusRequest() {
+    }
+
+    public ServerSetStatusRequest(String id, ServerStatus status) {
+        this.id = id;
+        this.status = status;
+    }
+
     public String getId() {
         return id;
     }

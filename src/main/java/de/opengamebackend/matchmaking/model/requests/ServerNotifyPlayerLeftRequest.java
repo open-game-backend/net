@@ -4,6 +4,14 @@ public class ServerNotifyPlayerLeftRequest {
     private String serverId;
     private String playerId;
 
+    public ServerNotifyPlayerLeftRequest() {
+    }
+
+    public ServerNotifyPlayerLeftRequest(String serverId, String playerId) {
+        this.serverId = serverId;
+        this.playerId = playerId;
+    }
+
     public String getServerId() {
         return serverId;
     }
