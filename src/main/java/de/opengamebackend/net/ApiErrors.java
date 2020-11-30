@@ -4,6 +4,12 @@ public class ApiErrors {
     public static final int INVALID_CREDENTIALS_CODE = 100;
     public static final String INVALID_CREDENTIALS_MESSAGE = "Invalid credentials.";
 
+    public static final int UNKNOWN_AUTH_PROVIDER_CODE = 101;
+    public static final String UNKNOWN_AUTH_PROVIDER_MESSAGE = "Unknown auth provider.";
+
+    public static final int INVALID_ROLE_CODE = 102;
+    public static final String INVALID_ROLE_MESSAGE = "Invalid role.";
+
     public static final int MISSING_GAME_MODE_CODE = 200;
     public static final String MISSING_GAME_MODE_MESSAGE = "Missing game mode.";
 
