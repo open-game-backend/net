@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 public class LoginResponse {
     private String playerId;
+    private String provider;
     private ArrayList<String> roles;
 
     @JsonInclude(JsonInclude.Include.NON_DEFAULT)
@@ -28,6 +29,14 @@ public class LoginResponse {
 
     public void setPlayerId(String playerId) {
         this.playerId = playerId;
+    }
+
+    public String getProvider() {
+        return provider;
+    }
+
+    public void setProvider(String provider) {
+        this.provider = provider;
     }
 
     public ArrayList<String> getRoles() {
