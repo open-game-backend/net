@@ -2,7 +2,7 @@ package de.opengamebackend.matchmaking.model.responses;
 
 import de.opengamebackend.matchmaking.model.ServerStatus;
 
-import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 import java.util.ArrayList;
 
 public class GetServersResponseServer {
@@ -13,7 +13,7 @@ public class GetServersResponseServer {
     private String ipV4Address;
     private int port;
     private int maxPlayers;
-    private LocalDateTime lastHeartbeat;
+    private OffsetDateTime lastHeartbeat;
     private ServerStatus status;
     private ArrayList<String> playerIds;
 
@@ -73,11 +73,11 @@ public class GetServersResponseServer {
         this.maxPlayers = maxPlayers;
     }
 
-    public LocalDateTime getLastHeartbeat() {
+    public OffsetDateTime getLastHeartbeat() {
         return lastHeartbeat;
     }
 
-    public void setLastHeartbeat(LocalDateTime lastHeartbeat) {
+    public void setLastHeartbeat(OffsetDateTime lastHeartbeat) {
         this.lastHeartbeat = lastHeartbeat;
     }
 

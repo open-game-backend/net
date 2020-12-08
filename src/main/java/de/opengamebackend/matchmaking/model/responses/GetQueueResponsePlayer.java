@@ -2,7 +2,7 @@ package de.opengamebackend.matchmaking.model.responses;
 
 import de.opengamebackend.matchmaking.model.PlayerStatus;
 
-import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 
 public class GetQueueResponsePlayer {
     private String playerId;
@@ -11,8 +11,8 @@ public class GetQueueResponsePlayer {
     private String region;
     private PlayerStatus status;
     private String serverId;
-    private LocalDateTime matchedTime;
-    private LocalDateTime joinedTime;
+    private OffsetDateTime matchedTime;
+    private OffsetDateTime joinedTime;
 
     public String getPlayerId() {
         return playerId;
@@ -62,19 +62,19 @@ public class GetQueueResponsePlayer {
         this.serverId = serverId;
     }
 
-    public LocalDateTime getMatchedTime() {
+    public OffsetDateTime getMatchedTime() {
         return matchedTime;
     }
 
-    public void setMatchedTime(LocalDateTime matchedTime) {
+    public void setMatchedTime(OffsetDateTime matchedTime) {
         this.matchedTime = matchedTime;
     }
 
-    public LocalDateTime getJoinedTime() {
+    public OffsetDateTime getJoinedTime() {
         return joinedTime;
     }
 
-    public void setJoinedTime(LocalDateTime joinedTime) {
+    public void setJoinedTime(OffsetDateTime joinedTime) {
         this.joinedTime = joinedTime;
     }
 }
