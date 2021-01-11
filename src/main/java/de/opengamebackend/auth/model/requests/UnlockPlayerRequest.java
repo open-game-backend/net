@@ -1,16 +1,8 @@
 package de.opengamebackend.auth.model.requests;
 
 public class UnlockPlayerRequest {
-    private String userId;
     private String provider;
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
+    private String providerUserId;
 
     public String getProvider() {
         return provider;
@@ -18,5 +10,13 @@ public class UnlockPlayerRequest {
 
     public void setProvider(String provider) {
         this.provider = provider;
+    }
+
+    public String getProviderUserId() {
+        return providerUserId;
+    }
+
+    public void setProviderUserId(String providerUserId) {
+        this.providerUserId = providerUserId;
     }
 }

@@ -1,25 +1,17 @@
 package de.opengamebackend.auth.model.responses;
 
 public class LockPlayerResponse {
-    private String userId;
     private String provider;
+    private String providerUserId;
     private boolean locked;
 
     public LockPlayerResponse() {
     }
 
-    public LockPlayerResponse(String userId, String provider, boolean locked) {
-        this.userId = userId;
+    public LockPlayerResponse(String provider, String providerUserId, boolean locked) {
         this.provider = provider;
+        this.providerUserId = providerUserId;
         this.locked = locked;
-    }
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
     }
 
     public String getProvider() {
@@ -28,6 +20,14 @@ public class LockPlayerResponse {
 
     public void setProvider(String provider) {
         this.provider = provider;
+    }
+
+    public String getProviderUserId() {
+        return providerUserId;
+    }
+
+    public void setProviderUserId(String providerUserId) {
+        this.providerUserId = providerUserId;
     }
 
     public boolean isLocked() {
