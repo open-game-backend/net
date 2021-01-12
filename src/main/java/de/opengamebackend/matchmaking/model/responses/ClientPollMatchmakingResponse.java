@@ -3,10 +3,19 @@ package de.opengamebackend.matchmaking.model.responses;
 import de.opengamebackend.matchmaking.model.MatchmakingStatus;
 
 public class ClientPollMatchmakingResponse {
+    private String playerId;
     private String serverId;
     private String ipV4Address;
     private int port;
     private MatchmakingStatus status;
+
+    public String getPlayerId() {
+        return playerId;
+    }
+
+    public void setPlayerId(String playerId) {
+        this.playerId = playerId;
+    }
 
     public String getServerId() {
         return serverId;

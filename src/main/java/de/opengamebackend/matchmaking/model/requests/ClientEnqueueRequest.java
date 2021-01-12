@@ -1,7 +1,6 @@
 package de.opengamebackend.matchmaking.model.requests;
 
 public class ClientEnqueueRequest {
-    private String playerId;
     private String version;
     private String gameMode;
     private String region;
@@ -9,19 +8,10 @@ public class ClientEnqueueRequest {
     public ClientEnqueueRequest() {
     }
 
-    public ClientEnqueueRequest(String playerId, String version, String gameMode, String region) {
-        this.playerId = playerId;
+    public ClientEnqueueRequest(String version, String gameMode, String region) {
         this.version = version;
         this.gameMode = gameMode;
         this.region = region;
-    }
-
-    public String getPlayerId() {
-        return playerId;
-    }
-
-    public void setPlayerId(String playerId) {
-        this.playerId = playerId;
     }
 
     public String getVersion() {
