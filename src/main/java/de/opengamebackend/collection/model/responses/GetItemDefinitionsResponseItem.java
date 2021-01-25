@@ -2,17 +2,15 @@ package de.opengamebackend.collection.model.responses;
 
 import java.util.List;
 
-public class GetCollectionResponseItem {
+public class GetItemDefinitionsResponseItem {
     private String id;
-    private int count;
     private List<String> tags;
 
-    public GetCollectionResponseItem() {
+    public GetItemDefinitionsResponseItem() {
     }
 
-    public GetCollectionResponseItem(String id, int count, List<String> tags) {
+    public GetItemDefinitionsResponseItem(String id, List<String> tags) {
         this.id = id;
-        this.count = count;
         this.tags = tags;
     }
 
@@ -22,14 +20,6 @@ public class GetCollectionResponseItem {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public int getCount() {
-        return count;
-    }
-
-    public void setCount(int count) {
-        this.count = count;
     }
 
     public List<String> getTags() {
