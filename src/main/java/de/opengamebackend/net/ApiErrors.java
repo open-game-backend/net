@@ -38,5 +38,17 @@ public class ApiErrors {
     public static final String PLAYER_NOT_FOUND_FOR_SERVER_MESSAGE = "Player not found for server.";
 
     public static final int UNKNOWN_ITEM_TAG_CODE = 301;
-    public static final String UNKNOWN_ITEM_TAG_MESSAGE = "Item tag in use.";
+    public static final String UNKNOWN_ITEM_TAG_MESSAGE = "Unknown item tag.";
+
+    public static final int MISSING_ITEM_DEFINITION_CODE = 302;
+    public static final String MISSING_ITEM_DEFINITION_MESSAGE = "Missing item definition.";
+
+    public static final int UNKNOWN_ITEM_DEFINITION_CODE = 303;
+    public static final String UNKNOWN_ITEM_DEFINITION_MESSAGE = "Unknown item definition.";
+
+    public static final int INVALID_ITEM_COUNT_CODE = 304;
+    public static final String INVALID_ITEM_COUNT_MESSAGE = "Invalid item count.";
+
+    public static final int PLAYER_DOES_NOT_OWN_ITEM_CODE = 305;
+    public static final String PLAYER_DOES_NOT_OWN_ITEM_MESSAGE = "Player does not own that item.";
 }

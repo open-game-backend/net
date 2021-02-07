@@ -6,7 +6,7 @@
 
     <groupId>de.opengamebackend</groupId>
     <artifactId>net</artifactId>
-    <version>0.0.18-SNAPSHOT</version>
+    <version>0.0.19-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
