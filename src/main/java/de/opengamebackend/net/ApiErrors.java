@@ -37,9 +37,6 @@ public class ApiErrors {
     public static final int PLAYER_NOT_FOUND_FOR_SERVER_CODE = 208;
     public static final String PLAYER_NOT_FOUND_FOR_SERVER_MESSAGE = "Player not found for server.";
 
-    public static final int UNKNOWN_ITEM_TAG_CODE = 301;
-    public static final String UNKNOWN_ITEM_TAG_MESSAGE = "Unknown item tag.";
-
     public static final int MISSING_ITEM_DEFINITION_CODE = 302;
     public static final String MISSING_ITEM_DEFINITION_MESSAGE = "Missing item definition.";
 
