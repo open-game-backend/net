@@ -48,4 +48,10 @@ public class ApiErrors {
 
     public static final int PLAYER_DOES_NOT_OWN_ITEM_CODE = 305;
     public static final String PLAYER_DOES_NOT_OWN_ITEM_MESSAGE = "Player does not own that item.";
+
+    public static final int UNKNOWN_LOADOUT_TYPE_CODE = 306;
+    public static final String UNKNOWN_LOADOUT_TYPE_MESSAGE = "Unknown loadout type.";
+
+    public static final int UNKNOWN_LOADOUT_CODE = 307;
+    public static final String UNKNOWN_LOADOUT_MESSAGE = "Unknown loadout.";
 }
