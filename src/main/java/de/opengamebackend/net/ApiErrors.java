@@ -54,4 +54,7 @@ public class ApiErrors {
 
     public static final int UNKNOWN_LOADOUT_CODE = 307;
     public static final String UNKNOWN_LOADOUT_MESSAGE = "Unknown loadout.";
+
+    public static final int UNKNOWN_ITEMTAG_CODE = 308;
+    public static final String UNKNOWN_ITEMTAG_MESSAGE = "Unknown item tag.";
 }
