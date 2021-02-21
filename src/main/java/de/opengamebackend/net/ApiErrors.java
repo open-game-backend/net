@@ -57,4 +57,7 @@ public class ApiErrors {
 
     public static final int UNKNOWN_ITEMTAG_CODE = 308;
     public static final String UNKNOWN_ITEMTAG_MESSAGE = "Unknown item tag.";
+
+    public static final int INVALID_LOADOUT_CODE = 309;
+    public static final String INVALID_LOADOUT_MESSAGE = "Invalid loadout.";
 }
