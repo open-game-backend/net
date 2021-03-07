@@ -1,17 +1,17 @@
 package de.opengamebackend.collection.model.requests;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PutItemDefinitionsRequestItem {
     private String id;
+    private Integer maxCount;
     private List<String> tags;
+    private List<PutItemDefinitionsRequestItemContainer> containers;
 
     public PutItemDefinitionsRequestItem() {
-    }
-
-    public PutItemDefinitionsRequestItem(String id, List<String> tags) {
-        this.id = id;
-        this.tags = tags;
+        tags = new ArrayList<>();
+        containers = new ArrayList<>();
     }
 
     public String getId() {
@@ -28,5 +28,21 @@ public class PutItemDefinitionsRequestItem {
 
     public void setTags(List<String> tags) {
         this.tags = tags;
+    }
+
+    public Integer getMaxCount() {
+        return maxCount;
+    }
+
+    public void setMaxCount(Integer maxCount) {
+        this.maxCount = maxCount;
+    }
+
+    public List<PutItemDefinitionsRequestItemContainer> getContainers() {
+        return containers;
+    }
+
+    public void setContainers(List<PutItemDefinitionsRequestItemContainer> containers) {
+        this.containers = containers;
     }
 }
