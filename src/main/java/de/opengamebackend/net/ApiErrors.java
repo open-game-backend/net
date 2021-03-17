@@ -56,10 +56,10 @@ public class ApiErrors {
     public static final String UNKNOWN_LOADOUT_MESSAGE = "Unknown loadout.";
 
     public static final int UNKNOWN_ITEMTAG_CODE = 308;
-    public static final String UNKNOWN_ITEMTAG_MESSAGE = "Unknown item tag.";
+    public static final String UNKNOWN_ITEMTAG_MESSAGE = "Unknown item tag: ";
 
     public static final int INVALID_LOADOUT_CODE = 309;
-    public static final String INVALID_LOADOUT_MESSAGE = "Invalid loadout.";
+    public static final String INVALID_LOADOUT_MESSAGE = "Invalid loadout: ";
 
     public static final int ITEM_NOT_A_CONTAINER_CODE = 310;
     public static final String ITEM_NOT_A_CONTAINER_MESSAGE = "Item not a container.";
