@@ -1,15 +1,15 @@
 package de.opengamebackend.collection.model.responses;
 
 public class GetLoadoutsResponseLoadoutItem {
-    private String itemDefinitionId;
+    private String id;
     private int count;
 
-    public String getItemDefinitionId() {
-        return itemDefinitionId;
+    public String getId() {
+        return id;
     }
 
-    public void setItemDefinitionId(String itemDefinitionId) {
-        this.itemDefinitionId = itemDefinitionId;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public int getCount() {
