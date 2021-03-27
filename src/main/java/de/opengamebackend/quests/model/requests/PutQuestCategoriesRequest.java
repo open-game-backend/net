@@ -5,10 +5,6 @@ import java.util.List;
 public class PutQuestCategoriesRequest {
     private List<PutQuestCategoriesRequestItem> categories;
 
-    public PutQuestCategoriesRequest(List<PutQuestCategoriesRequestItem> categories) {
-        this.categories = categories;
-    }
-
     public List<PutQuestCategoriesRequestItem> getCategories() {
         return categories;
     }

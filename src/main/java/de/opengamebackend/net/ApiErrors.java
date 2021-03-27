@@ -63,4 +63,7 @@ public class ApiErrors {
 
     public static final int ITEM_NOT_A_CONTAINER_CODE = 310;
     public static final String ITEM_NOT_A_CONTAINER_MESSAGE = "Item not a container.";
+
+    public static final int UNKNOWN_QUEST_CATEGORY_CODE = 400;
+    public static final String UNKNOWN_QUEST_CATEGORY_MESSAGE = "Unknown quest category: ";
 }
