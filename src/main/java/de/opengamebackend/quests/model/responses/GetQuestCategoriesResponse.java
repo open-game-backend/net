@@ -3,13 +3,13 @@ package de.opengamebackend.quests.model.responses;
 import java.util.ArrayList;
 
 public class GetQuestCategoriesResponse {
-    private ArrayList<GetQuestCategoriesReponseItem> categories;
+    private ArrayList<GetQuestCategoriesResponseItem> categories;
 
-    public ArrayList<GetQuestCategoriesReponseItem> getCategories() {
+    public ArrayList<GetQuestCategoriesResponseItem> getCategories() {
         return categories;
     }
 
-    public void setCategories(ArrayList<GetQuestCategoriesReponseItem> categories) {
+    public void setCategories(ArrayList<GetQuestCategoriesResponseItem> categories) {
         this.categories = categories;
     }
 }

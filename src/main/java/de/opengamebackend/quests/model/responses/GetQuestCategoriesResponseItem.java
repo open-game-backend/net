@@ -1,6 +1,6 @@
 package de.opengamebackend.quests.model.responses;
 
-public class GetQuestCategoriesReponseItem {
+public class GetQuestCategoriesResponseItem {
     private String id;
     private Integer generationHourOfDay;
     private Integer generationDayOfWeek;
