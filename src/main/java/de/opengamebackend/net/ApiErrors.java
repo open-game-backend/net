@@ -66,4 +66,7 @@ public class ApiErrors {
 
     public static final int UNKNOWN_QUEST_CATEGORY_CODE = 400;
     public static final String UNKNOWN_QUEST_CATEGORY_MESSAGE = "Unknown quest category: ";
+
+    public static final int UNKNOWN_QUEST_DEFINITION_CODE = 401;
+    public static final String UNKNOWN_QUEST_DEFINITION_MESSAGE = "Unknown quest definition: ";
 }
