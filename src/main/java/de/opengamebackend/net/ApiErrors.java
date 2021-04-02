@@ -69,4 +69,13 @@ public class ApiErrors {
 
     public static final int UNKNOWN_QUEST_DEFINITION_CODE = 401;
     public static final String UNKNOWN_QUEST_DEFINITION_MESSAGE = "Unknown quest definition: ";
+
+    public static final int QUEST_NOT_FOUND_CODE = 402;
+    public static final String QUEST_NOT_FOUND_MESSAGE = "Quest not found.";
+
+    public static final int INSUFFICIENT_QUEST_PROGRESS_CODE = 403;
+    public static final String INSUFFICIENT_QUEST_PROGRESS_MESSAGE = "Insufficient quest progress.";
+
+    public static final int COLLECTION_SERVICE_UNAVAILABLE_CODE = 404;
+    public static final String COLLECTION_SERVICE_UNAVAILABLE_MESSAGE = "Collection service unavailable.";
 }
