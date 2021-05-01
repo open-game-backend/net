@@ -37,6 +37,9 @@ public class ApiErrors {
     public static final int PLAYER_NOT_FOUND_FOR_SERVER_CODE = 208;
     public static final String PLAYER_NOT_FOUND_FOR_SERVER_MESSAGE = "Player not found for server.";
 
+    public static final int MISSING_TICKET_CODE = 209;
+    public static final String MISSING_TICKET_MESSAGE = "Missing ticket.";
+
     public static final int MISSING_ITEM_DEFINITION_CODE = 302;
     public static final String MISSING_ITEM_DEFINITION_MESSAGE = "Missing item definition.";
 

@@ -2,14 +2,14 @@ package de.opengamebackend.matchmaking.model.requests;
 
 public class ServerNotifyPlayerJoinedRequest {
     private String serverId;
-    private String playerId;
+    private String ticket;
 
     public ServerNotifyPlayerJoinedRequest() {
     }
 
-    public ServerNotifyPlayerJoinedRequest(String serverId, String playerId) {
+    public ServerNotifyPlayerJoinedRequest(String serverId, String ticket) {
         this.serverId = serverId;
-        this.playerId = playerId;
+        this.ticket = ticket;
     }
 
     public String getServerId() {
@@ -20,11 +20,11 @@ public class ServerNotifyPlayerJoinedRequest {
         this.serverId = serverId;
     }
 
-    public String getPlayerId() {
-        return playerId;
+    public String getTicket() {
+        return ticket;
     }
 
-    public void setPlayerId(String playerId) {
-        this.playerId = playerId;
+    public void setTicket(String ticket) {
+        this.ticket = ticket;
     }
 }
