@@ -10,6 +10,9 @@ public class ApiErrors {
     public static final int INVALID_ROLE_CODE = 102;
     public static final String INVALID_ROLE_MESSAGE = "Invalid role.";
 
+    public static final int INVALID_SECRET_KEY_CODE = 103;
+    public static final String INVALID_SECRET_KEY_MESSAGE = "Invalid secret key.";
+
     public static final int MISSING_GAME_MODE_CODE = 200;
     public static final String MISSING_GAME_MODE_MESSAGE = "Missing game mode.";
 
